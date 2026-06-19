@@ -1,0 +1,22 @@
+# --- PYTHON / DJANGO ---
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+db.sqlite3-journal
+.env
+
+# --- ENVIRONNEMENT VIRTUEL ---
+# Ton dossier s'appelle "env", on l'ignore ici
+env/
+venv/
+
+# --- FRONTEND (Node.js) ---
+# Très important : ne jamais commit node_modules
+node_modules/
+npm-debug.log*
+
+# --- FICHIERS SYSTÈME / IDE ---
+.vscode/
+.idea/
+.DS_Store

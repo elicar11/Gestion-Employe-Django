@@ -1,0 +1,29 @@
+{
+  "name": "employe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch.css": "tailwindcss -i ./EmployeProject/static/css/src/input.css -o ./EmployeProject/static/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elicar11/Gestion-Employe-Django.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/elicar11/Gestion-Employe-Django/issues"
+  },
+  "homepage": "https://github.com/elicar11/Gestion-Employe-Django#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "tailwindcss": "^4.3.1"
+  },
+  "devDependencies": {
+    "daisyui": "^5.5.23"
+  }
+}
