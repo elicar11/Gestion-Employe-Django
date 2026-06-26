@@ -1,7 +1,7 @@
 from django.db import models
 
 class Employe(models.Model):
-    matricule     = models.CharField()
+    matricule     = models.CharField(max_length=50)
     nom           = models.CharField(max_length=255)
     email         = models.EmailField()
     poste         = models.CharField(max_length=100)
